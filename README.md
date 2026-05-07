@@ -1,4 +1,4 @@
-# Address Book — OOP Basics
+# Address Book - OOP Basics
 
 Foundation iteration of the address-book exercise: an OOP design with `Field`, `Name`, `Phone`, `Record`, and `AddressBook(UserDict)` classes. Contacts are kept in memory; later weeks add birthdays, persistence, and a Telegram bot on top.
 
@@ -8,11 +8,11 @@ Foundation iteration of the address-book exercise: an OOP design with `Field`, `
 
 ## Classes
 
-- **`Field`** — base class for any value stored on a record
-- **`Name(Field)`** — required, non-empty string
-- **`Phone(Field)`** — exactly 10 digits, validated on creation
-- **`Record`** — owns one `Name` and a list of `Phone`s; supports `add_phone`, `remove_phone`, `edit_phone`, `find_phone`
-- **`AddressBook(UserDict)`** — keyed by `Name.value`; supports `add_record`, `find`, `delete`
+- **`Field`** - base class for any value stored on a record
+- **`Name(Field)`** - required, non-empty string
+- **`Phone(Field)`** - exactly 10 digits, validated on creation
+- **`Record`** - owns one `Name` and a list of `Phone`s; supports `add_phone`, `remove_phone`, `edit_phone`, `find_phone`
+- **`AddressBook(UserDict)`** - keyed by `Name.value`; supports `add_record`, `find`, `delete`
 
 ## Run
 
